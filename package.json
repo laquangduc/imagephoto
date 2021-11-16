@@ -1,0 +1,16 @@
+{
+  "name": "template-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^1.8.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "npx tailwindcss build styles.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

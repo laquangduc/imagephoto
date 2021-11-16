@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="text" id="ok" placeholder="Your name">
+        <span id="name"></span>
+        <input type="text" id="ok1" placeholder="Your number">
+        <span id="age"></span>
+        <button onclick="click()">Click Me</button>
+
+    </div>
+    <script>
+        function click() {
+            var ok = document.getElementById('ok').value;
+            var ok1 = document.getElementById('ok1').value;
+
+
+            if (ok == "") {
+                alert("Nhap cai gi vao di");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
